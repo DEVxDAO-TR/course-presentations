@@ -9,12 +9,12 @@ Course plan.
 	- Functions: `fn`
 	- `String`, `str`, `format!`, `println!`
 	- Arrays: `Vec`, `slice`
-	- Collections: `HashMap`
+	- HashMap (or Dictionary): `HashMap`
 	- Ownership, Borrowing
 	- Control Flow: `if`, `if let`, `match`
 	- Loops: `loop`, `while`, `while let`, `for`, iterators
 #### Homeworks:
-1. Write `fn hello(name:&str) -> String` will return: "Hello <name>!"
+1. Write `fn hello(name:&str) -> String` will return: "Hello -name-!"
 2. Write `fn make_double(num:i32) -> i32` will return: 4 when given 2
 3. Write `fn multiply_pi(num:f32) -> f32` will multiply the num with Pi(π) and return the result.
 ## Week - 2:
@@ -24,10 +24,9 @@ Course plan.
 2. Write `fn log(level:LogLevel::Warn, msg:&str) -> String` LogLevel is enum. Prints logs with level tag: `[WARN]: This is warning log.`
 3. Write `Person {name:String, age: u8, gender: Gender}` Gender is enum. Implement `Display` trait for `Person`.
 ## Week - 3:
-1. Crates, Using modules, File I/O, Tests
-	- Crates: `use`, `mod`, `pub mod` ...
-	- Example Crate: [serde](https://docs.rs/serde/latest/serde/index.html)
-	- Standard File I/O
+1. Crates, Tests
+	- Crates: `use`, `mod`, `pub mod`, create your own crate
+	- Usage of an example crate: [serde](https://docs.rs/serde/latest/serde/index.html)
 	- Writing Tests
 #### Homeworks:
 1. Print `Point{x:1, y:1}` struct like `{"x":1, "y":1}` with serde.
@@ -56,7 +55,7 @@ Course plan.
 #### Homeworks:
 1. Calculate nth prime number with 5 threads.
 ## Week - 6:
-1. Introduction to asynchronous programming?
+1. Introduction to asynchronous programming:
 	- `async-std`. `async`, `Future`
 	- Example: async TCP server
 #### Homeworks:
