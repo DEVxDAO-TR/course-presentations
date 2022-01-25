@@ -15,7 +15,7 @@ Course plan.
 	- Loops: `loop`, `while`, `while let`, `for`, iterators
 #### Homeworks:
 1. Write `fn hello(name:&str) -> String` will return: "Hello -name-!"
-2. Write `fn make_double(num:i32) -> i32` will return: 4 when given 2
+2. Write `fn make_it_double(num:i32) -> i32` will return: 4 when given 2
 3. Write `fn multiply_pi(num:f32) -> f32` will multiply the num with Pi(π) and return the result.
 ## Week - 2:
 1. Introduction to: Enum, Result, Option, Struct, Trait, Macro
@@ -30,8 +30,8 @@ Course plan.
 	- Writing Tests
 #### Homeworks:
 1. Print `Point{x:1, y:1}` struct like `{"x":1, "y":1}` with serde.
-2. Write 3 tests for Homework - 2
-3. Write the jsonified  of `Point` struct to a `test.json` file
+2. Write 3 tests for 1.
+3. Write the jsonified output of `Point` struct to a `test.json` file
 ## Week - 4:
 1. Closure
 2. Iterator
