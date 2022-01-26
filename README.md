@@ -21,7 +21,7 @@ Course plan.
 1. Introduction to: Enum, Result, Option, Struct, Trait, Macro
 #### Homeworks:
 1. Write `fn to_letter_grade(num:u8) -> String`
-2. Write `fn log(level:LogLevel::Warn, msg:&str) -> String` LogLevel is enum. Prints logs with level tag: `[WARN]: This is warning log.`
+2. Write `fn log(level:LogLevel, msg:&str) -> String` LogLevel is enum. Prints logs with level tag: `[WARN]: This is warning log.`
 3. Write `Person {name:String, age: u8, gender: Gender}` Gender is enum. Implement `Display` trait for `Person`.
 ## Week - 3:
 1. Crates, Tests
