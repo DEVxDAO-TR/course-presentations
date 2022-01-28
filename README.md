@@ -43,11 +43,11 @@ Course plan.
 	- Usage of an example crate: [serde](https://docs.rs/serde/latest/serde/index.html)
 	- Writing Tests
 #### Homeworks:
-1. Print Person { name:String, age:u8, gender:Gender::Male } with serde & serde_json crate:
-	- Example: {"name":"Emin","age":24,"gender":"Male"}
+1. Print `Person { name:String, age:u8, gender:Gender::Male }` with serde & serde_json crate:
+	- Example: `{"name":"Emin","age":24,"gender":"Male"}`
 2. Write 3 test cases for first task.
-3.Write jsonified output of the Person struct to person.json file.
-	- Examples: https://doc.rust-lang.org/rust-by-example/std_misc/fs.html
+3. Write jsonified output of the `Person` struct to `person.json` file.
+	- Writing to a file examples: https://doc.rust-lang.org/rust-by-example/std_misc/fs.html
 ## Week - 4:
 1. Closure
 2. Iterator
