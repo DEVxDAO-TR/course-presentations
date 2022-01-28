@@ -14,13 +14,23 @@ Course plan.
 	- Control Flow: `if`, `if let`, `match`
 	- Loops: `loop`, `while`, `while let`, `for`, iterators
 #### Homeworks:
-1. Write `fn hello(name:&str) -> String` will return: "Hello -name-!"
-2. Write `fn make_it_double(num:i32) -> i32` will return: 4 when given 2
-3. Write `fn multiply_pi(num:f32) -> f32` will multiply the num with Pi(π) and return the result.
+1. Write `fn hello(name:&str) -> String`
+   - will return: "Hello -name-!"
+2. Write `fn make_it_double(num:i32) -> i32`
+   - will return: 4 when given 2
+3. Write `fn multiply_pi(num:f32) -> f32`
+   - will multiply the num with Pi(π) and return the result.
 ## Week - 2:
-1. Introduction to: Enum, Result, Option, Struct, Trait, Macro
+1. Introduction to: 
+   - Enum
+   - Result
+   - Option
+   - Struct
+   - Traits
+   - Macro
 #### Homeworks:
 1. Write `fn to_letter_grade(num:u8) -> String`
+   - will return "AA" for 100, "BA" for 89 etc.
 2. Write `fn log(level:LogLevel, msg:&str) -> String` 
    - LogLevel is an enum. Prints logs with level tag: `[WARN]: This is warning log.`
 3. Write `Person {name:String, age: u8, gender: Gender}` 
