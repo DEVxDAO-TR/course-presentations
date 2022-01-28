@@ -14,13 +14,23 @@ Course plan.
 	- Control Flow: `if`, `if let`, `match`
 	- Loops: `loop`, `while`, `while let`, `for`, iterators
 #### Homeworks:
-1. Write `fn hello(name:&str) -> String` will return: "Hello -name-!"
-2. Write `fn make_it_double(num:i32) -> i32` will return: 4 when given 2
-3. Write `fn multiply_pi(num:f32) -> f32` will multiply the num with Pi(π) and return the result.
+1. Write `fn hello(name:&str) -> String`
+   - will return: "Hello -name-!"
+2. Write `fn make_it_double(num:i32) -> i32`
+   - will return: 4 when given 2
+3. Write `fn multiply_pi(num:f32) -> f32`
+   - will multiply the num with Pi(π) and return the result.
 ## Week - 2:
-1. Introduction to: Enum, Result, Option, Struct, Trait, Macro
+1. Introduction to: 
+   - Enum
+   - Result
+   - Option
+   - Struct
+   - Traits
+   - Macro
 #### Homeworks:
 1. Write `fn to_letter_grade(num:u8) -> String`
+   - will return "AA" for 100, "BA" for 89 etc.
 2. Write `fn log(level:LogLevel, msg:&str) -> String` 
    - LogLevel is an enum. Prints logs with level tag: `[WARN]: This is warning log.`
 3. Write `Person {name:String, age: u8, gender: Gender}` 
@@ -33,9 +43,11 @@ Course plan.
 	- Usage of an example crate: [serde](https://docs.rs/serde/latest/serde/index.html)
 	- Writing Tests
 #### Homeworks:
-1. Print `Point{x:1, y:1}` struct like `{"x":1, "y":1}` with serde.
-2. Write 3 tests for 1.
-3. Write the jsonified output of `Point` struct to a `test.json` file
+1. Print `Person { name:String, age:u8, gender:Gender::Male }` with serde & serde_json crate:
+	- Example: `{"name":"Emin","age":24,"gender":"Male"}`
+2. Write 3 test cases for first task.
+3. Write jsonified output of the `Person` struct to `person.json` file.
+	- Writing to a file examples: https://doc.rust-lang.org/rust-by-example/std_misc/fs.html
 ## Week - 4:
 1. Closure
 2. Iterator
