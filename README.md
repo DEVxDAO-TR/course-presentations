@@ -47,7 +47,7 @@ Course plan.
 	- Example: `{"name":"Emin","age":24,"gender":"Male"}`
 2. Write 3 test cases for first task.
 3. Write jsonified output of the `Person` struct to `person.json` file.
-	- Writing to a file examples: https://doc.rust-lang.org/rust-by-example/std_misc/fs.html
+	- Writing to a file examples: https://doc.rust-lang.org/std/fs/struct.File.html
 ## Week - 4:
 1. Closure
 2. Iterator
