@@ -53,14 +53,16 @@ Course plan.
 2. Iterator
 	- `filter`
 	- `map`
-	- `zip`
-	- `nth`, `count`
+	- `nth`
+	- `count`
 	- `enumerate`
-	- Fibonacci example with Iterator trait
+	- Fibonacci series with Iterator trait
 3. Generics
+4. Lifetimes
 #### Homeworks:
 1. Filter even numbers on a list
 2. Multiply all numbers with 2 on a list
+3. Implement an iterator which implements this algorithm: `f(n) = f(n-1) * f(n-2)` and `n > 0`
 ## Week - 5:
 1. Thread, Mutex, Atomic, Channel
 	- Fearless Concurrency
