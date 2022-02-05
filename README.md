@@ -77,4 +77,7 @@ Course plan.
 	- `async-std`. `async`, `Future`
 	- Example: async TCP server
 #### Homeworks:
-1. Write tcp echo server with `async-std`
+1. Write tcp chat server with `async-std`
+	- Send each message to other connections.
+	- Use Arc<Mutex<>> to share "user list" between the tasks.
+	- Use 22222 port to make us test it easily.
