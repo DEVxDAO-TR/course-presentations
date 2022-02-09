@@ -43,7 +43,7 @@ Course plan.
 	- Usage of an example crate: [serde](https://docs.rs/serde/latest/serde/index.html)
 	- Writing Tests
 #### Homeworks:
-1. Print `Person { name:String, age:u8, gender:Gender::Male }` with serde & serde_json crate:
+1. Make `Person { name:String, age:u8, gender:Gender::Male }` struct transformable to JSON string with serde & serde_json crate:
 	- Example: `{"name":"Emin","age":24,"gender":"Male"}`
 2. Write 3 test cases for first task.
 3. Write jsonified output of the `Person` struct to `person.json` file.
@@ -71,7 +71,8 @@ Course plan.
 	- thread w/ atomic
 	- thread w/ channel
 #### Homeworks:
-1. Calculate nth prime number with 5 threads.
+1. Calculate nth prime number with threads.
+	- Find every given prime number on an array `&[u32]` with spawning a thread for each of it, and send the result with `std::sync::mpsc::Sender`.
 ## Week - 6:
 1. Introduction to asynchronous programming:
 	- `async-std`. `async`, `Future`
