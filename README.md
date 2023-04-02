@@ -119,3 +119,65 @@ Outline of the educational topics on blockchains, decentralization, and DEVxDAO.
 - The role of DEVxDAO in supporting innovative projects
 - How to get involved in the DEVxDAO community and contribute to decentralized projects
 
+---
+
+# Introduction to Blockchain Development Workshop
+Outline for the 2-week hands-on part of intro to blockchain development.
+
+## Week 1: Introduction to Blockchain Development and Basic Setup
+
+### Session 1:
+
+1.  Introduction
+    -   Goals of the hands-on blockchain development course
+    -   Overview of the Casper blockchain platform
+    - Communication mediums and where to get help
+2.  Getting Started
+    -   Setting up the development environment
+    -   Installing necessary tools and dependencies
+3.  Create And Fund An Account
+    -   Creating a new account on the Casper Network
+    -   Funding the account with tokens
+
+### Session 2:
+
+1.  Session Code
+    - What is session code?
+    - Using session code for multisig setup
+2.  Session Code Testing
+    - How to test session code
+3.  A Smart Contract Example
+    -   Writing a simple smart contract using Rust
+    -   Understanding the components of a smart contract
+
+## Week 2: Developing, Testing, and Interacting with Smart Contracts
+
+### Session 1:
+
+1.  Testing Your Smart Contract
+    -   Setting up a test environment for the smart contract
+    -   Writing tests and verifying the contract's functionality
+2.  Installing Contracts On Casper
+    -   Deploying the smart contract to the Casper Network
+    -   Tracking the deployment status
+3.  Verify An Installed Contract
+    -   Verifying the successful installation of the smart contract
+    -   Checking the contract's state on the network
+
+### Session 2:
+
+1.  Upgrading A Contract
+    -   Modifying the smart contract
+    -   Deploying the upgraded version to the Casper Network
+2.  Interacting with Smart Contracts
+    -   Call installed contracts by hash, name, and using Wasm
+    -   Calling contracts with session arguments
+    -   Calling versioned contracts by package hash and package name
+3.  What's Next?
+    -   Exploring more advanced topics in blockchain development
+    -   Opportunities for further learning and development within the Casper ecosystem
+
+## References
+- [Casper Developer Portal](https://developer.casper.network/)
+- [Casper Network Documentation](https://docs.casper.network/)
+- [Casper Association Video Series: Writing On-Chain Code](https://www.youtube.com/playlist?list=PL8oWxbJ-csEqi5FP87EJZViE2aLz6X1Mj)
